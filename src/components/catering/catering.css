@@ -1,0 +1,37 @@
+.header_bg {
+  background: url("../../img/bgmain2.png") no-repeat;
+  padding: 200px 0px 100px 0px;
+  transition: padding 0.3s;
+}
+
+.main_content {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.catering_wrapper {
+  padding: 40px 20px 40px 20px;
+}
+
+.catering_text_wrapper {
+  margin-right: 80px;
+}
+
+.catering_text_wrapper p {
+  color: grey;
+}
+.catering_text_wrapper h2 {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 576px) {
+  .header_bg h1 {
+    font-size: 60px;
+  }
+  .catering_wrapper {
+    display: block !important;
+  }
+  .img_catering {
+    height: 200px !important;
+  }
+}

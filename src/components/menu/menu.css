@@ -1,0 +1,25 @@
+.menu_bg {
+  background: url("../../img/menu_bg.jpg") left no-repeat;
+  padding: 200px 0px 100px 0px;
+  transition: padding 0.3s;
+}
+
+.menu_wrapper {
+  margin: 100px 0 100px;
+}
+
+.hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.hover .fa-shopping-cart {
+  margin-right: 15px;
+}
+
+.card_wrapper:hover .hover {
+  opacity: 0.8;
+  transition: opacity 0.5s;
+}

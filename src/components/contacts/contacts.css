@@ -1,0 +1,20 @@
+.contacts_bg {
+  background: url("../../img/menu_bg.jpg") left no-repeat;
+  padding: 200px 0px 100px 0px;
+  transition: padding 0.3s;
+}
+
+.social {
+  margin-left: 20px;
+}
+
+.wrapper_top,
+.wrapper_bottom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.wrapper_right form {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}

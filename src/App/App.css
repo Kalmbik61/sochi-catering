@@ -1,0 +1,7 @@
+.app {
+  display: block;
+  margin: 0 auto;
+  background: #fff;
+  position: relative;
+  overflow-x: hidden;
+}

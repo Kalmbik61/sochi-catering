@@ -1,0 +1,20 @@
+.wrapper_text div {
+  background-color: #d1b7a3;
+  color: white;
+}
+
+.jumbotron h2 {
+  font-weight: 150;
+}
+
+.jumbotron p {
+  font-weight: 200;
+  font-size: 20px;
+}
+
+@media (max-width: 576px) {
+  .jumbotron h2 {
+    font-size: 30px;
+    font-weight: 250;
+  }
+}

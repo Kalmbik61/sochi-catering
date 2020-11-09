@@ -1,0 +1,18 @@
+.cart_bg {
+  background: url("../../img/menu_bg.jpg") left no-repeat;
+  padding: 200px 0px 100px 0px;
+  transition: padding 0.3s;
+}
+
+.cart_wrapper {
+  padding: 100px 0 100px;
+}
+.cart_item_wrapper {
+  padding: 20px;
+}
+
+@media (max-width: 576px) {
+  .none_item {
+    display: none;
+  }
+}
